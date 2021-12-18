@@ -37,7 +37,8 @@ header img{
     left: 10px;
     top: -5px;
 }
-header a{ont-style: normal;
+header a{
+    font-style: normal;
     font-weight: 300;
     font-size: 26px;
     color: #fff;
@@ -124,7 +125,7 @@ nav{
     margin-bottom: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .about-txt{

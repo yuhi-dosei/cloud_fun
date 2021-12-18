@@ -14,10 +14,12 @@ body{
 a{
     text-decoration: none;
 }
+
 p{
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
 header{
     margin-top: 0;
     display: flex;
@@ -56,10 +58,11 @@ nav{
     background-image: url(../images/first-view.png);
 }
 .first-view h1{
-    width: 1047px;
-    height: 230px;
 
-    top: 90px;
+    position: absolute;
+    height: 230px;
+    left: 40px;
+    top: 60px;
 
     font-family: A-OTF Ryumin Pr6N;
     font-style: normal;
@@ -70,15 +73,15 @@ nav{
 
     color: #FFFFFF;
 }
-.first-view p{
+.first-view ul{
     position: absolute;
     left: 40px;
-    top: 670px;
+    top: 700px;
     font-family: A-OTF Ryumin Pr6N;
     font-style: normal;
     font-weight: 300;
     font-size: 50px;
-    line-height: 130px;
+    line-height: 100px;
     color: #FFFFFF;
 }
 

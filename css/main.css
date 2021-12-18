@@ -57,12 +57,17 @@ p{
     display: inline-block;
     padding: 0px 30px 0px 30px;
 }
+.first-view-sp{
+        display: none;
+}
 
 .first-view{
     position: relative;
+    
     width: 100%;
     min-height: 100vh;
     background-image: url(../images/first-view.webp);
+    
 }
 .first-view h1{
 
@@ -90,6 +95,11 @@ p{
     font-size: 50px;
     line-height: 100px;
     color: #FFFFFF;
+}
+
+.iframe-wrap iframe{
+    width:600px;
+    height:350px;
 }
 
 #goal{
@@ -175,6 +185,33 @@ p{
 }
 
 @media screen and (max-width:640px) {
+    body{
+        max-width: 100%;
+    }
+    figure,img{
+        width: 100%;
+        height: auto;
+    }
+    .first-view{
+        display: none;
+    }
+    .first-view-sp{
+        display: block;
+    }
+    
+
+    .iframe-wrap iframe{
+        width: 100%;
+        height: auto;
+    }
+    .svg__container { 
+        position: relative;
+        width: 100%;
+    }
+    .svg__content { 
+        position: absolute;
+    }
+
     .pc-header{
         display: none;
     }
@@ -277,4 +314,93 @@ p{
     #drawer-check:checked ~ .drawer-content {
         left: 0;
     }
+    
+
+    #goal{
+    text-align: center;
+    font-size: 40px;
+}
+
+.goal-main{
+    /*width: 100%;*/
+    margin: auto;
+    margin-bottom: 150px;
+    min-width: 100%;
+    display: block;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.goal-txt{
+    width: 340px;
+    margin: auto;
+}
+
+.goal-txt p{
+    font-size: 25px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+.goal-txt .goal-title{
+    font-size: 20px;
+}
+
+#about{
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-main{
+    /*width: 100%;*/
+    min-width: 100%;
+    margin-bottom: 150px;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-txt{
+    margin: auto;
+    width: 340px;
+}
+
+.about-txt p{
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.about-txt .title{
+    font-size: 30px;
+}
+
+#usage{
+    text-align: center;
+    font-size: 40px;
+}
+
+.usage-txt{
+    margin: auto;
+    width: 100%;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.title{
+    text-align: center;
+}
+
+#return{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.return{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
 }

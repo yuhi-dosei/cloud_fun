@@ -61,6 +61,7 @@
 
 <body>
     <!--first view部分 構造的に他と異なるのでdivではなくsectionタグで区切る-->
+    
     <section class="first-view">
         <h1>簡単に、清潔に。</h1>
         <ul>
@@ -68,12 +69,15 @@
             <li>　　　　　新時代のパッケージ</li>
         </ul>
     </section>
+    <img src="images/first-view-sp.png" alt="ファーストビュー" class="first-view-sp">
+    
 
     <section>
     <!-- Goal部分 動画はとりあえず挿入してみました -->
             <p id="goal">Goal</p>
             <div class="goal-main">
-                <iframe width="600" height="350" 
+                <div class="iframe-wrap">
+                <iframe 
                 src="https://www.youtube.com/embed/ZLBUxmIWTa0" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -81,6 +85,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                 gyroscope;" allowfullscreen>
                 </iframe>
+                </div>
                 <div class="goal-txt">
                     <p class="goal-title">・現在の支援額</p>
                     <p>　&yen;320,000</p>
@@ -159,8 +164,8 @@
             <!-- Return 部分-->
             <p id="return">Return</p>
             <div class="return">
-                <figure>
-                    <img src="images/return.svg">
+                <figure class="svg-container">
+                    <img src="images/return.svg" class="svg-content">
                 </figure>
                 <p class=return-txt>
                     Phy 6個セット &yen;0000000<br><br>

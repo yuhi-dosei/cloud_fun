@@ -9,6 +9,7 @@ body{
     font-family: new-order, zen-kaku-gothic-new, sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: #6CB7B6;
 }
 
 a{
@@ -16,11 +17,12 @@ a{
 }
 
 p{
+    color: #fff;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
 
-header{
+.pc-header{
     margin-top: 0;
     display: flex;
     width: 100%;
@@ -30,20 +32,20 @@ header{
     position: fixed;
     z-index: 1;
 }
-header img{
+.pc-header img{
     position: absolute;
     width: 100px;
     height: 100px;
     left: 10px;
     top: -5px;
 }
-header a{
+.pc-header a{
     font-style: normal;
     font-weight: 300;
     font-size: 26px;
     color: #fff;
 }
-nav{
+.pc-header nav{
     margin: 0 0 0 auto;
 }
 .menu-item{
@@ -166,4 +168,32 @@ nav{
 .return{
     text-align: center;
     margin-bottom: 200px;
+}
+
+@media screen and (max-width:640px) {
+    .pc-header{
+        display: none;
+    }
+    .sp-header{
+        margin-top: 0;
+    }
+    .hamburger{
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 25px;
+        margin: 0 0 0 auto;
+        z-index: 1;
+    }
+    .hamburger span{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        transform: translateY(-50%);
+    }
+    
 }

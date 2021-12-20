@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--リセット用css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
-    <link rel="stylesheet" href="css/main.css">
     <!-- フォント -->
     <link rel="stylesheet" href="https://use.typekit.net/afd2tos.css">
-<!--アニメーション用のjQuery-->
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script>
+
+    <!--アニメーション用のjQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--slider-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+
         (function(d) {
           var config = {
             kitId: 'npf7ugi',
@@ -19,7 +25,9 @@
           },
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
+
       </script>
+
       <script type="text/javascript" src="js/common.js"></script>
     <title>Crowdfunding</title>
 </head>
@@ -172,17 +180,40 @@
 
             <!-- Return 部分-->
             <p id="return">Return</p>
+
+            <h3>PHY 6個セット</h3>
             <div class="return">
-                <figure class="svg-container">
-                    <img src="images/return.svg" class="svg-content">
-                </figure>
-                <p class=return-txt>
-                    Phy 6個セット &yen;0000000<br><br>
+                <div class="sliderArea">
+                    <div class="slider_thumb slider">
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      
+                    </div>
+                    <div class="thumb">
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      <div><img src="images/600x400.png" alt=""></div>
+                      
+                    </div>
+                </div>
+                <div class=return-txt>
+                <h4 class="title">0000円</h4>
+                <p>
+                    情に棹させば流される。智に働けば角が立つ。
+                    どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。
+                    とかくに人の世は住みにくい。意地を通せば窮屈だ。
+                    どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。
                     親譲りの無鉄砲で小供の時から損ばかりしている。
                     小学校に居る時分学校の二階から飛び降りて一週間ほど腰を
                     抜かした事がある。なぜそんな無闇をしたと聞く人があるかも
                     知れぬ。
                 </p>
+                </div>
             </div>
         </section>
     </body>

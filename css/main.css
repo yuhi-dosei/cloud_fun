@@ -6,7 +6,7 @@
 
 body{
     margin: 0;
-    font-family: new-order, zen-kaku-gothic-new, sans-serif;
+    font-family: new-order, a-otf-gothic-mb101-pr6n, sans-serif;
     font-weight: 300;
     font-style: normal;
     background-color: #6CB7B6;
@@ -97,6 +97,31 @@ p{
 .iframe-wrap iframe{
     width:600px;
     height:350px;
+}
+
+#phy{
+    text-align: center;
+    font-size: 40px;
+}
+
+.phy-main{
+    /*width: 100%;*/
+    min-width: 1440px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.phy-txt{
+    width: 400px;
+}
+
+.phy-txt p{
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 30px;
+    letter-spacing: 2px;
 }
 
 #goal{

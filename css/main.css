@@ -106,7 +106,7 @@ p{
 
 .goal-main{
     /*width: 100%;*/
-    min-width: 1440px;
+    min-width: 100%;
     margin-bottom: 150px;
     display: flex;
     align-items: center;
@@ -134,7 +134,7 @@ p{
 
 .about-main{
     /*width: 100%;*/
-    min-width: 1440px;
+    min-width: 100%;
     margin-bottom: 150px;
     display: flex;
     align-items: center;
@@ -177,8 +177,55 @@ p{
 }
 
 .return{
+    display: flex;
     text-align: center;
     margin-bottom: 200px;
+    min-width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.return-txt{
+    width: 340px;
+}
+
+.sliderArea {
+	max-width: 600px;
+	padding: 0 25px;
+}
+.sliderArea.w300 {
+	max-width: 300px;
+}
+.slick-slide {
+	margin: 0 5px;
+}
+.slick-slide img {
+	width: 100%;
+	height: auto;
+}
+.slick-prev, .slick-next {
+	z-index: 1;
+}
+.slick-prev:before, .slick-next:before {
+	color: #fff;
+}
+.slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+.slick-active {
+	opacity: 1;
+}
+.slick-current {
+	opacity: 1;
+}
+.thumb {
+	margin: 20px 0;
+}
+.thumb .slick-slide {
+	cursor: pointer;
+}
+.thumb .slick-slide:hover {
+	opacity: .7;
 }
 
 @media screen and (max-width:640px) {
@@ -398,8 +445,16 @@ p{
 }
 
 .return{
-    text-align: center;
-    margin-bottom: 200px;
+    min-width: 100%;
+    margin-bottom: 150px;
+    display: block;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.return-txt{
+    margin: auto;
+    width: 340px;
 }
 
 }

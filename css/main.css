@@ -7,9 +7,11 @@
 body{
     margin: 0;
     font-family: new-order, a-otf-gothic-mb101-pr6n, sans-serif;
-    font-weight: 300;
     font-style: normal;
     background-color: #6CB7B6;
+}
+b{
+    font-size: 17px;
 }
 
 a{
@@ -51,7 +53,7 @@ h3{
     display: flex;
     width: 100%;
     height: 60px;
-    background: rgba(105, 179, 134, 0.77);
+    background: rgba(108, 183, 182, 0.77);
     align-items: center;
     position: fixed;
     z-index: 1;
@@ -113,6 +115,12 @@ h3{
 .wide-box iframe{
     width:700px;
     height:400px;
+}
+.ytp-title{
+    display: none;
+}
+.ytp-title-channel{
+    display: none;
 }
 
 
@@ -262,7 +270,7 @@ h3{
         height: 50px;
         padding: 0 20px;
         position: fixed;
-        background: rgba(105, 179, 134, 0.77);
+        background: rgba(108, 183, 182, 0.77);
         z-index: 1;
     }
     .sp-header img{

@@ -29,6 +29,8 @@
       </script>
 
       <script type="text/javascript" src="js/common.js"></script>
+      <!--画像の遅延読み込み-->
+      <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script>
     <title>PHY 直接指で薬を塗らない新しいカタチ</title>
     <link rel="shortcut icon" href="images/favicon.ico">
 </head>
@@ -104,19 +106,19 @@
             <div class="wide-box">
                     <div class="sliderArea">
                         <div class="slider_thumb slider">
-                            <div><img src="images/slide-1.webp" alt=""></div>
-                            <div><img src="images/slide-2.webp" alt=""></div>
-                            <div><img src="images/return1.webp" alt=""></div>
-                            <div><img src="images/return2.webp" alt=""></div>
-                            <div><img src="images/return3.webp" alt=""></div>
+                            <div><img src="images/slide-1.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/slide-2.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return1.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return2.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return3.webp" alt="" class="lazyload"></div>
                           
                         </div>
                         <div class="thumb">
-                            <div><img src="images/slide-1.webp" alt=""></div>
-                            <div><img src="images/slide-2.webp" alt=""></div>
-                            <div><img src="images/return1.webp" alt=""></div>
-                            <div><img src="images/return2.webp" alt=""></div>
-                            <div><img src="images/return3.webp" alt=""></div>
+                            <div><img src="images/slide-1.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/slide-2.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return1.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return2.webp" alt="" class="lazyload"></div>
+                            <div><img src="images/return3.webp" alt="" class="lazyload"></div>
                           
                         </div>
                     </div>
@@ -125,7 +127,7 @@
                     <p class="goal-title">・現在の支援額</p>
                     <p>　&yen;---,---</p>
                     <figure class="moneyBar">
-                        <img src="images/moneybar2.svg">
+                        <img src="images/moneybar2.svg" class="lazyload">
                     </figure>
                     <p class="goal-title">・目標金額 &yen;---,---</p>
                     <p class="goal-title">・支援者数</p>
@@ -139,7 +141,7 @@
             <h3 id="about">About</h3>
             <div class="wide-box">
                 <figure class="about-images">
-                    <img src="images/logo_info.webp" width="600px" height="400px">
+                    <img src="images/logo_info.webp" width="600px" height="400px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">簡単に清潔に薬が塗れる <br class="pc"> PHY(サイ)</h4>
@@ -153,7 +155,7 @@
             </div>
             <div class="wide-box" id="about-info">
                 <figure class="about-images" >
-                    <img src="images/nowash.webp" width="400px" height="400px" id="about-nowash">
+                    <img src="images/nowash.webp" width="400px" height="400px" id="about-nowash" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">手を洗わなくてOK</h4>
@@ -165,7 +167,7 @@
             </div>
             <div class="wide-box" id="about-info">
                 <figure class="about-images" >
-                    <img src="images/notouch.webp" width="400px" height="400px" id="about-notouch">
+                    <img src="images/notouch.webp" width="400px" height="400px" id="about-notouch" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">患部を指で<br class="sp">直接触らない</h4>
@@ -178,7 +180,7 @@
             </div>
             <div class="wide-box" id="about-info">
                 <figure class="about-images" >
-                    <img src="images/carry.webp" width="600px" height="600px">
+                    <img src="images/carry.webp" width="600px" height="600px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">持ち運びも簡単</h4>
@@ -189,7 +191,7 @@
             </div>
             <div class="wide-box">
                 <figure class="about-images" >
-                    <img src="images/trash.webp" width="600px" height="500px" id="about-trash">
+                    <img src="images/trash.webp" width="600px" height="500px" id="about-trash" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">使ったあとは<br class="sp">捨てるだけ</h4>
@@ -202,7 +204,7 @@
 
             <div class="wide-box">
                 <figure class="about-images">
-                    <img loading="lazy" src="images/structure.gif" alt=""  width="600px" height="338px">
+                    <img loading="lazy" src="images/structure.gif" alt=""  width="600px" height="338px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">製品の素材</h4>
@@ -226,7 +228,7 @@
             <div id="usage">
             <div class="wide-box">
                 <figure class="about-images">
-                    <img src="images/usage1.webp" width="600px" height="400px">
+                    <img src="images/usage1.webp" width="600px" height="400px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">開ける。</h4>
@@ -238,7 +240,7 @@
             </div>
             <div class="wide-box">
                 <figure class="about-images">
-                    <img src="images/usage2.webp" width="600px" height="400px">
+                    <img src="images/usage2.webp" width="600px" height="400px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">着ける。</h4>
@@ -250,7 +252,7 @@
             </div>
             <div class="wide-box">
                 <figure class="about-images">
-                    <img src="images/usage3.webp" width="600px" height="400px">
+                    <img src="images/usage3.webp" width="600px" height="400px" class="lazyload">
                 </figure>
                 <div class="textbox">
                     <h4 class="title">塗る。</h4>

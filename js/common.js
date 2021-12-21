@@ -13,4 +13,5 @@ $(function() {
       slidesToShow:4,
       slidesToScroll:1
   });  
+  $("img.lazyload").lazyload();
   });

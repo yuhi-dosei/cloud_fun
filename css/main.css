@@ -146,6 +146,23 @@ h3{
     text-align: center;
 }
 
+.btn{
+    text-align: center;
+}
+
+.btn a{
+    padding: 8px 30px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    background-color: rgb(0, 116, 161);
+    border-radius: 5px;
+}
+
+.btn a:hover{
+    opacity: 1;
+}
+
 
 .goal-txt p{
     font-size: 25px;

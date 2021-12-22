@@ -143,6 +143,10 @@ h3{
     margin-right: 50px;
 }
 
+#return-text{
+    text-align: left;
+}
+
 
 .textbox{
     width: 400px;
